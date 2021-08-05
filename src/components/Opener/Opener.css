@@ -1,0 +1,21 @@
+#opener {
+  background-image: url("https://www.sustainability-times.com/wp-content/uploads/2018/10/art-by-lonfeldt-1064207-unsplash.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+  color: white;
+}
+
+#opener .container {
+  display: flex;
+  height: 100%;
+  align-items: center;
+  justify-content: center;
+}
+
+#opener .centerHeading {
+  font-size: 14rem;
+  text-transform: uppercase;
+  font-weight: normal;
+}
