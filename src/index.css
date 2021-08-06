@@ -8,8 +8,3 @@
   --primary-bg: rgb(248, 242, 209);
   --primary-text: rgb(49, 49, 126);
 }
-
-html,
-body {
-  background-color: var(--primary-bg);
-}
