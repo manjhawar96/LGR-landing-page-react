@@ -1,8 +1,19 @@
 #importance {
-  margin: 14rem 0 5rem 0;
+  margin: 14rem 0 0 0;
+  height: 230vh;
+}
+#importance .container {
   position: relative;
-  height: 250vh;
   z-index: 5;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: 25rem;
+  gap: 2rem;
+  grid-template-areas:
+    ". a"
+    "b ."
+    ". c"
+    "d .";
 }
 
 #importance img {
@@ -16,35 +27,25 @@
   z-index: -1;
 }
 
-#importance .container {
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  grid-template-rows: 25rem;
-  gap: 2rem;
-  grid-template-areas:
-    ". a"
-    "b ."
-    ". c"
-    "d .";
-}
-
 #importance .title {
   font-weight: bold;
   font-size: clamp(3.5rem, 5vw, 5rem);
   grid-area: a;
   margin-left: 10rem;
+  font-family: Helvetica, sans-serif;
 }
 
 #importance .first-left {
   grid-area: b;
+  margin-bottom: 50%;
 }
 
 #importance .first-right {
   grid-area: c;
-  margin-top: 50%;
+  margin-bottom: 60%;
 }
 #importance .second-left {
-  margin-top: 70%;
+  margin-bottom: 30%;
   grid-area: d;
 }
 
@@ -73,7 +74,7 @@
 @media only screen and (max-width: 768px) {
   #importance {
     margin: 5rem 0 0 0;
-    height: 160vh;
+    height: 130vh;
   }
   #importance img {
     width: auto;
@@ -82,7 +83,7 @@
   }
   #importance .container {
     grid-template-columns: 1fr;
-    grid-template-rows: 20rem 10rem;
+    grid-template-rows: 15rem 10rem;
     grid-template-areas:
       "a"
       "b"
@@ -93,9 +94,10 @@
     margin-left: 0rem;
   }
   #importance .first-right {
-    margin-top: 50%;
+    margin-top: 40%;
+    margin-bottom: 20%;
   }
   #importance .second-left {
-    margin-top: 20%;
+    margin-bottom: 0%;
   }
 }

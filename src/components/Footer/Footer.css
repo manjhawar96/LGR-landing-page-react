@@ -1,10 +1,12 @@
 footer {
-  background-image: url("https://www.sustainability-times.com/wp-content/uploads/2018/10/art-by-lonfeldt-1064207-unsplash.jpg");
+  background: linear-gradient(rgba(0, 0, 0, 0.582), rgba(0, 0, 0, 0.582)),
+    url("../../assets/footerImg.png");
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
   height: 80vh;
   color: white;
+  position: relative;
 }
 
 footer .container {
@@ -16,17 +18,29 @@ footer .container {
 }
 
 footer .footerTitle {
-  font-size: 9.5rem;
+  font-size: clamp(4.7rem, 10vw, 9.5rem);
   text-transform: capitalize;
+  text-align: center;
   font-weight: bold;
   padding: 3rem 0;
 }
 
-footer .sendEmail {
+footer .sendEmailBtn {
   padding: 1.2rem 6rem;
-  background-color: rgb(255, 180, 41);
+  background: #ffb613;
   border: 2px solid green;
   color: white;
-  font-size: 1.7rem;
+  font-size: clamp(1.3rem, 5vw, 1.7rem);
   letter-spacing: 0.1rem;
+  transition: background 0.3s ease;
+}
+
+footer .sendEmailBtn:hover {
+  background: rgb(255, 166, 0);
+}
+
+@media only screen and (max-width: 600px) {
+  footer .sendEmailBtn {
+    padding: 1.2rem 3rem;
+  }
 }

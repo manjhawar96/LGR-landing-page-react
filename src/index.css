@@ -6,5 +6,6 @@
 
 :root {
   --primary-bg: rgb(248, 242, 209);
-  --primary-text: rgb(49, 49, 126);
+  --primary-text: #707070;
+  --secondary-text: #1b2647;
 }

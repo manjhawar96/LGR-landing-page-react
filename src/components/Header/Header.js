@@ -7,17 +7,17 @@ export default function Header() {
   return (
     <Navbar collapseOnSelect expand="lg">
       <Container>
-        <Link className="link" href="/">
+        <Link className="link" to="/">
           LGR
         </Link>
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
         <Navbar.Collapse id="responsive-navbar-nav">
           <Nav className="me-auto"></Nav>
           <Nav>
-            <Link href="/" className="link">
+            <Link to="/" className="link">
               Features
             </Link>
-            <Link className="link" eventKey={2} href="/">
+            <Link className="link" eventKey={2} to="/">
               About us
             </Link>
           </Nav>

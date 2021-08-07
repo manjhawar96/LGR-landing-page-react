@@ -22,7 +22,13 @@
   font-size: 1.6rem;
   border-radius: 1.5rem;
   border: none;
-  background-color: rgb(255, 180, 41);
+  background-color: #ffb613;
+  transition: 0.3s ease all;
+  margin-top: 2rem;
+}
+
+#getStarted .getStartedBtn:hover {
+  background-color: #f1a500;
 }
 
 #getStarted .startedImg {

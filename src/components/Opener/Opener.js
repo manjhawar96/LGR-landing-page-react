@@ -28,7 +28,7 @@ const Container = styled.div`
 `;
 
 const Heading = styled.h1`
-  font-size: 14rem;
+  font-size: clamp(8rem, 20vw, 14rem);
   text-transform: uppercase;
   font-weight: normal;
 `;
