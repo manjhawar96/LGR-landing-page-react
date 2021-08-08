@@ -8,10 +8,10 @@ export default function Footer() {
       <Container className="container">
         <h1
           className="footerTitle"
-          data-aos="zoom-in"
+          data-aos="fade-up"
           data-aos-anchor-placement="top-center"
-          data-aos-delay="1"
-          data-aos-duration="400"
+          data-aos-delay="10"
+          data-aos-duration="320"
         >
           Coming 2022
         </h1>
