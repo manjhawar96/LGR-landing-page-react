@@ -1,4 +1,4 @@
-import React, { useEffect } from "react";
+import React, { useEffect, useState } from "react";
 import Header from "../../components/Header/Header";
 import Opener from "../../components/Opener/Opener";
 import GetStarted from "../../components/GetStarted/GetStarted";
@@ -11,20 +11,30 @@ import "aos/dist/aos.css";
 import AOS from "aos";
 
 export default function Home() {
+  const [loading, setLoading] = useState(true);
+
   useEffect(() => {
+    setTimeout(() => setLoading(false), 1000);
     AOS.init({
       duration: 2000,
     });
   }, []);
   return (
-    <main id="home">
-      <Opener />
-      <Header />
-      <GetStarted />
-      <Importance />
-      <Mission />
-      <Team />
-      <Footer />
-    </main>
+    <>
+      {loading ? (
+        <div>
+          <Opener />
+        </div>
+      ) : (
+        <main id="home">
+          <Header />
+          <GetStarted />
+          <Importance />
+          <Mission />
+          <Team />
+          <Footer />
+        </main>
+      )}
+    </>
   );
 }

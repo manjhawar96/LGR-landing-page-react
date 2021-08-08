@@ -6,7 +6,14 @@ export default function Opener() {
   return (
     <Main id="opener">
       <Container className="container">
-        <Heading>Lgr</Heading>
+        <Heading
+          data-aos="fade-up"
+          data-aos-anchor-placement="bottom-bottom"
+          data-aos-delay="10"
+          data-aos-duration="370"
+        >
+          Lgr
+        </Heading>
       </Container>
     </Main>
   );

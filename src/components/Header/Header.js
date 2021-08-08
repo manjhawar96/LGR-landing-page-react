@@ -5,7 +5,7 @@ import { Navbar, Nav, Container } from "react-bootstrap";
 
 export default function Header() {
   return (
-    <Navbar collapseOnSelect expand="lg">
+    <Navbar collapseOnSelect expand="lg" fixed="top" className="navbar">
       <Container>
         <Link className="link" to="/">
           LGR

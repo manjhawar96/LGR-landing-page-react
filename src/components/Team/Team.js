@@ -13,7 +13,14 @@ export default function Team() {
           <h1 className="title">Meet the Team</h1>
           <div className="teamGrid">
             <div xs={4} className="member">
-              <img src={member1} alt="Emma" />
+              <img
+                src={member1}
+                alt="Emma"
+                data-aos="slide-right"
+                data-aos-anchor-placement="top-bottom"
+                data-aos-delay="1"
+                data-aos-duration="400"
+              />
               <h3 className="memberInfo">
                 Emma Xia
                 <br />
@@ -33,7 +40,14 @@ export default function Team() {
               </h3>
             </div>
             <div className="member">
-              <img src={member3} alt="Nick" />
+              <img
+                src={member3}
+                alt="Nick"
+                data-aos="slide-left"
+                data-aos-anchor-placement="top-bottom"
+                data-aos-delay="1"
+                data-aos-duration="400"
+              />
               <h3 className="memberInfo">
                 Nick Zhang
                 <br />

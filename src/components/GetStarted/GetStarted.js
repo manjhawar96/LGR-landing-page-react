@@ -10,17 +10,17 @@ export default function GetStarted() {
         src={getStarted}
         alt="none"
         className="startedImg"
-        data-aos="slide-up"
-        data-aos-anchor-placement="top-center"
-        data-aos-delay="50"
-        data-aos-duration="1000"
+        data-aos="fade-up"
+        data-aos-anchor-placement="bottom-bottom"
+        data-aos-delay="10"
+        data-aos-duration="370"
         easing="ease-in-cubic"
       />
       <Container className="container">
         <div className="allText">
           <h1
             className="title"
-            data-aos="fade-up"
+            data-aos="slide-up"
             data-aos-anchor-placement="bottom-bottom"
             data-aos-delay="10"
             data-aos-duration="370"
@@ -34,8 +34,9 @@ export default function GetStarted() {
             data-aos-delay="10"
             data-aos-duration="370"
           >
-            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Totam
-            delectus quia incidunt quae fugiat expedita?
+            LGR is an online creator marketplace that gives you the freedom to
+            find collaborations opportunities, grow your brand and learn from
+            others.
           </p>
           <button
             className="getStartedBtn"

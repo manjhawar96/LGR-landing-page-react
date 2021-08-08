@@ -1,5 +1,5 @@
 #getStarted {
-  margin: 6rem 0;
+  margin: 10rem 0 5rem 0;
   background-color: transparent;
   position: relative;
   z-index: 10;
@@ -9,6 +9,14 @@
   font-size: clamp(3rem, 5vw, 4rem);
   width: 80%;
   font-weight: bold;
+}
+
+#getStarted .startedImg {
+  position: absolute;
+  right: 3rem;
+  bottom: -13rem;
+  z-index: -1;
+  width: 50%;
 }
 
 #getStarted .info {
@@ -31,20 +39,13 @@
   background-color: #f1a500;
 }
 
-#getStarted .startedImg {
-  position: absolute;
-  right: 3rem;
-  bottom: -13rem;
-  z-index: -1;
-}
-
 #getStarted .allText {
   z-index: 2;
 }
 
 @media only screen and (max-width: 900px) {
   #getStarted {
-    margin-top: 4rem;
+    margin-top: 7rem;
   }
   #getStarted .title {
     width: 100%;

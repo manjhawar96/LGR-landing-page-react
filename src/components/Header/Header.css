@@ -1,7 +1,7 @@
 .navbar {
   background-color: var(--primary-bg);
   color: var(--primary-text);
-  padding: 1.5rem 0;
+  padding: 1rem 0;
 }
 
 .navbar .link {
@@ -11,10 +11,12 @@
   text-decoration: none;
 }
 
-#responsive-navbar-nav .link {
-  padding-top: 1rem;
-}
-
 #responsive-navbar-nav .link:hover {
   color: rgb(0, 0, 0);
+}
+
+@media (max-width: 768px) {
+  #responsive-navbar-nav .link {
+    padding-top: 1rem;
+  }
 }
