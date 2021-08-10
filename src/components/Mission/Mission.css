@@ -42,11 +42,6 @@
 }
 @media only screen and (max-width: 530px) {
   #mission {
-    margin: 8rem 0 0 0;
-  }
-}
-@media only screen and (max-width: 430px) {
-  #mission {
-    margin: 1rem 0 0 0;
+    margin: 18rem 0 0 0;
   }
 }
