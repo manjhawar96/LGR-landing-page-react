@@ -11,8 +11,8 @@ export default function Mission() {
             className="title"
             data-aos="slide-right"
             data-aos-anchor-placement="top-bottom"
-            data-aos-delay="1"
-            data-aos-duration="400"
+            data-aos-delay="30"
+            data-aos-duration="1000"
           >
             our
             <br /> mission
@@ -20,9 +20,9 @@ export default function Mission() {
           <p
             className="info"
             data-aos="fade-down-left"
-            data-aos-anchor-placement="top-bottom"
+            data-aos-anchor-placement="fade-down-right"
             data-aos-delay="500"
-            data-aos-duration="400"
+            data-aos-duration="1000"
           >
             LGR aim to make online social media a better place through inspiring
             creators to curate authentic content. Regardless follower counts,
