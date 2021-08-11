@@ -9,8 +9,8 @@ export default function Mission() {
         <div className="content">
           <h1
             className="title"
-            data-aos="slide-right"
-            data-aos-anchor-placement="top-bottom"
+            data-aos="fade-right"
+            data-aos-anchor-placement="center-bottom"
             data-aos-delay="30"
             data-aos-duration="1000"
           >
@@ -20,7 +20,7 @@ export default function Mission() {
           <p
             className="info"
             data-aos="fade-down-left"
-            data-aos-anchor-placement="fade-down-right"
+            data-aos-anchor-placement="center-bottom"
             data-aos-delay="500"
             data-aos-duration="1000"
           >

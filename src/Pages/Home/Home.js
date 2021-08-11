@@ -17,6 +17,7 @@ export default function Home() {
     setTimeout(() => setLoading(false), 2000);
     AOS.init({
       duration: 2000,
+      once: true,
     });
   }, []);
   return (

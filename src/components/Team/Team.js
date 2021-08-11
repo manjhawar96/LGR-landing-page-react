@@ -16,10 +16,10 @@ export default function Team() {
               <img
                 src={member1}
                 alt="Emma"
-                data-aos="slide-right"
-                data-aos-anchor-placement="top-bottom"
-                data-aos-delay="1"
-                data-aos-duration="400"
+                data-aos="fade-right"
+                data-aos-anchor-placement="center-bottom"
+                data-aos-delay="500"
+                data-aos-duration="1000"
               />
               <h3 className="memberInfo">
                 Emma Xia
@@ -29,7 +29,13 @@ export default function Team() {
                 bukiemma000@gmail.com
               </h3>
             </div>
-            <div className="member">
+            <div
+              className="member"
+              data-aos="fade-up"
+              data-aos-anchor-placement="center-bottom"
+              data-aos-delay="500"
+              data-aos-duration="1000"
+            >
               <img src={member2} alt="Manesh" />
               <h3 className="memberInfo">
                 Manesh Jhawar
@@ -43,10 +49,10 @@ export default function Team() {
               <img
                 src={member3}
                 alt="Nick"
-                data-aos="slide-left"
-                data-aos-anchor-placement="top-bottom"
-                data-aos-delay="1"
-                data-aos-duration="400"
+                data-aos="fade-left"
+                data-aos-anchor-placement="center-bottom"
+                data-aos-delay="500"
+                data-aos-duration="1000"
               />
               <h3 className="memberInfo">
                 Nick Zhang
